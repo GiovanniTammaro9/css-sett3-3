@@ -11,8 +11,15 @@
 
 :root{
     --colore-principale: red;
+    --paddin-principale: 30px;
+
 }
 
 html{
     color: var(--colore-principale)
 }
+
+div{
+    padding: var(--paddin-principale);
+}
+
