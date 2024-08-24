@@ -9,3 +9,10 @@
     height: 100px;
 }
 
+:root{
+    --colore-principale: red;
+}
+
+html{
+    color: var(--colore-principale)
+}
